@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  employeewebservice:
+    image: ${DOCKER_REGISTRY-}employeewebservice
+    build:
+      context: .
+      dockerfile: EmployeeWebService/Dockerfile
+    depends_on:
+      - db
+
+  db:
+    container_name: pg_container
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: test_db
+    ports:
+      - "5432:5432"

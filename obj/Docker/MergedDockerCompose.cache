@@ -1,0 +1,29 @@
+services:
+  db:
+    container_name: pg_container
+    environment:
+      POSTGRES_DB: test_db
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+    image: postgres
+    ports:
+    - published: 5432
+      target: 5432
+    restart: always
+  employeewebservice:
+    build:
+      context: C:\Users\Mikhail\source\repos\EmployeeWebService
+      dockerfile: EmployeeWebService/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: employeewebservice
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Mikhail\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'

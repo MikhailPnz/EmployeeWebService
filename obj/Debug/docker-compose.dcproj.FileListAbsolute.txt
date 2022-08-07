@@ -1,0 +1,14 @@
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\EmployeeWebService.dll
+C:\Users\Mikhail\source\repos\EmployeeWebService\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\EmployeeWebService.Views.dll
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\EmployeeWebService.Views.pdb
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\appsettings.Development.json
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\appsettings.json
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\EmployeeWebService.exe
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\Npgsql.dll
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\Dapper.dll
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mikhail\source\repos\EmployeeWebService\bin\Debug\EmployeeWebService.pdb
+C:\Users\Mikhail\source\repos\EmployeeWebService\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\Mikhail\source\repos\EmployeeWebService\obj\Debug\docker-compose.dcproj.CopyComplete
